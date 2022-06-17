@@ -1,0 +1,186 @@
+@media (max-width: 1050px){
+    header div nav{
+        display: flex;
+    }
+    .infocontainer{
+        padding-left: 0rem;
+        flex-direction: column;
+    }
+    .devlogo{
+        flex-grow: 1;
+        max-width: 22rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .devinfo{
+        flex-grow: 1;
+        justify-content: center;
+    }
+    #myself{
+        height: 50vh;
+    }
+    #skill{
+        height: 50vh;
+    }
+}
+@media (max-width: 800px){
+    .container{
+        flex-direction: column;
+        padding: 1.5rem 0rem;
+    }
+    .toogle-h-100{
+        height: 0rem;
+        transition: all 0.15s ease-in-out;
+    }
+    .logo_A{
+        margin: auto auto;
+        justify-content: center;
+        top: 0.5rem;
+        align-items: center;
+    }
+    header div nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #11101d;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0rem 0rem;
+        height: 13.5rem;
+        transition: all 0.15s ease-in-out;
+        overflow: hidden;
+    }
+    header div nav li:first-child{
+        margin-top: 1.5rem;
+    }
+    #tooglemenu{
+        display: flex;
+    }
+    .infocontainer{
+        padding-left: 0rem;
+    }
+    .devlogo{
+        align-items: center;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .devinfo{
+        text-align: left;
+        align-items: flex-start;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    .devinfo h1 span{
+        font-size: 4.7rem;
+    }
+    .devinfo h1 span:nth-child(8){
+        font-size: 5.4rem;
+    }
+    .devinfo h1 span:nth-child(n+9){
+        margin-left: 4px;
+        font-size: 5rem;
+    }
+    .btn{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #skill h1{
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    #contact div{
+        width: 100%;
+    }
+    input, textarea{
+        width: 60%;
+    }
+    #contact div:nth-child(2){
+        width: 60%;
+    }
+    #contact div img{
+        height: 80%;
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 540px){
+    .infocontainer{
+        margin: auto auto;
+    }
+    .devlogo{
+        margin-left: 60px;
+    }
+    .devinfo{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .devinfo h1 span{
+        font-size: 4rem;
+    }
+    .devinfo h1 span:nth-child(8){
+        font-family: 'Courgette', cursive;
+        margin-left: 20px;
+        font-size: 4.2rem;
+    }
+    .devinfo h1 span:nth-child(n+9){
+        font-family: 'Courgette', cursive;
+        font-size: 3.7rem;
+    }
+    .btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .devinfo h1::after{
+        padding-left: 0px;
+    }
+    .scroll{
+        display: none;
+    }
+    input, textarea{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #myself{
+        height: 80vh;
+    }
+    #myself h1{
+        margin: auto 50px;
+    }
+    #myself p{
+        margin-left: 60px;
+    }
+    #image{
+        display: none;
+    }
+    #skill{
+        height: 80vh;
+        overflow: hidden;
+    }
+    #skill h1 {
+        margin-left: 20px;
+    }
+    .skillItem {
+        margin-left: 35px;
+    }
+    .image2{
+        display: none;
+    }
+    #contact h1{
+        margin: auto 35px;
+    }
+}
+@media (max-width: 400px){
+    .skillset{
+        width: 13rem;
+    }
+}
